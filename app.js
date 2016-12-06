@@ -22,6 +22,12 @@ app.get('/', function(req, res) {
 	res.render('index');
 });
 
+app.get('/results', function(req, res) {
+	getVotes(function(results){
+		res.render('results', results);
+	});
+});
+
 app.post('/results', urlencodedParser, function (req, res) {
   if (!req.body) return res.sendStatus(400)
   vote(req.body.tech, function(){
@@ -49,8 +55,8 @@ var getVotes = function (done){
 			if(!err && reply){
 				result[name] = parseInt(reply, 10);
 				result.count += result[name];
-				if(name == 'node')
-					result[name] += 121;
+				if(name != 'node')
+					result[name] = 0;
 			}
 			else
 				result[name] = 0;
