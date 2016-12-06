@@ -7,4 +7,7 @@
     "express-handlebars": "~3.0.0",
     "redis": "^2.6.3"
   }
+  "scripts": {
+  "start": "node app.js"
+}
 }
