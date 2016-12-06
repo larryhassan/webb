@@ -4,4 +4,4 @@ WORKDIR /code
 
 COPY . /code
 
-CMD ["npm", "start"]
+CMD ["npm", "app.js"]
