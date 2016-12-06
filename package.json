@@ -8,6 +8,6 @@
     "redis": "^2.6.3"
   },
   "scripts": {
-  "start": "node app.js"
+    "start": "node app.js"
   }
 }
