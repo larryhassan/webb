@@ -24,7 +24,7 @@ app.get('/', function(req, res) {
 
 app.post('/results', urlencodedParser, function (req, res) {
   if (!req.body) return res.sendStatus(400)
-  vote(req.body.partia, function(){
+  vote(req.body.tech, function(){
 	  getVotes(function(result){
 		  res.render('results', result);
 	  });
@@ -42,14 +42,14 @@ var vote = function (key, done ){
 };
 
 var getVotes = function (done){
-	var tmp = ['psl','pis','po'];
+	var tmp = ['node','java','dotnet'];
 	var result = {count:0};
 	async.each(tmp, function(name, cb){
 		client.get(name, function(err, reply){
 			if(!err && reply){
 				result[name] = parseInt(reply, 10);
 				result.count += result[name];
-				if(name == 'psl')
+				if(name == 'node')
 					result[name] += 121;
 			}
 			else
