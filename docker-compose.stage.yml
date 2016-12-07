@@ -5,7 +5,7 @@ services:
     depends_on:
       - "redis"
     ports:
-      - "80:8000"
+      - "81:8000"
   redis:
     image: redis
     entrypoint: redis-server --appendonly yes
