@@ -15,7 +15,7 @@ git clone https://github.com/sztwiorokr/webb.git
 ```
 Run in the repository dir
 ```
-* docker-compose up
+docker-compose up
 ```
 You are ready to work. Live Debugging is enabled.
 ## Staging server
