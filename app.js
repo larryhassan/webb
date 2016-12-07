@@ -45,8 +45,8 @@ var getVotes = function (done){
 			if(!err && reply){
 				result[name] = parseInt(reply, 10);
 				result.count += result[name];
-				if(name != 'node')
-					result[name] = 0;
+				//if(name != 'node')
+				//	result[name] = 0;
 			}
 			else
 				result[name] = 0;
