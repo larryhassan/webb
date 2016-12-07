@@ -1,8 +1,9 @@
-FROM node
+FROM node:5.11.0-slim÷÷
 
 WORKDIR /code
 
-RUN npm install -g nodemon 
+RUN npm install -g nodemon
+
 COPY . /code
 
-CMD ["npm", "start"]
+CMD ["node", "app.js"]

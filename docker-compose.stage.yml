@@ -1,0 +1,15 @@
+version: "2"
+services:
+  web:
+    image: rafalsz/webb
+    depends_on:
+      - "redis"
+    ports:
+      - "81:8000"
+  redis:
+    image: redis
+    entrypoint: redis-server --appendonly yes
+    volumes: 
+      - ./data:/data 
+    expose:
+      - "6379"
