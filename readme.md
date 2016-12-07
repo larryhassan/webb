@@ -22,4 +22,7 @@ You are ready to work. Live Debugging is enabled.
 
 After every push to the dev branch [Staging server](http://webb.0zxc.com:81/) will be updated automatically
 
-## Building
+## Build Server
+
+Buddy CI/CD
+https://app.buddy.works/hi-there/webb/pipelines
