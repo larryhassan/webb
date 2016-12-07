@@ -19,7 +19,7 @@ docker-compose up
 ```
 You are ready to work. **Live Debugging is enabled.**
 
-Use http://localhost:8000
+Use [http://localhost:8000](http://localhost:8000)
 ## Stage Server
 
 After every push to the dev branch [Staging Server](http://webb.0zxc.com:81/) will be updated automatically
