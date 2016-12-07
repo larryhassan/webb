@@ -1,4 +1,9 @@
 # WeBB
+voting app
+
+tech stack:
+* node.js
+* redis
 
 ## Live
 
