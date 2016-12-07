@@ -13,7 +13,7 @@ To run aplication localy:
 ```
 git clone https://github.com/sztwiorokr/webb.git
 ```
-Run in the repository dir
+* Run in the repository dir
 ```
 docker-compose up
 ```
