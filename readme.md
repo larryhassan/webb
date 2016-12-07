@@ -18,9 +18,9 @@ Run in the repository dir
 docker-compose up
 ```
 You are ready to work. Live Debugging is enabled.
-## Staging server
+## Stage Server
 
-After every push to the dev branch [Staging server](http://webb.0zxc.com:81/) will be updated automatically
+After every push to the dev branch [Staging Server](http://webb.0zxc.com:81/) will be updated automatically
 
 ## Build Server
 
