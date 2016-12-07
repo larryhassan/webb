@@ -8,8 +8,8 @@ You can open this app here
 ## How to develop
 
 To run aplication localy:
-Download [Docker](https://www.docker.com/)
-Clone the repository
+* Download [Docker](https://www.docker.com/)
+* Clone the repository
 ```
 git clone https://github.com/sztwiorokr/webb.git
 ```
