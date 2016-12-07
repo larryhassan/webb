@@ -7,7 +7,7 @@ You can open this app here
 
 ## How to develop
 
-To run aplication localy:
+To run aplication locally:
 * Download [Docker](https://www.docker.com/)
 * Clone the repository
 ```
