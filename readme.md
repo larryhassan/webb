@@ -17,7 +17,7 @@ git clone https://github.com/sztwiorokr/webb.git
 ```
 docker-compose up
 ```
-You are ready to work. Live Debugging is enabled.
+You are ready to work. *Live Debugging is enabled.*
 ## Stage Server
 
 After every push to the dev branch [Staging Server](http://webb.0zxc.com:81/) will be updated automatically
