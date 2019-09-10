@@ -1,7 +1,7 @@
 version: "2"
 services:
   web:
-    image: sztwiorok/webb:dev
+    image: bylek/webb:dev
     depends_on:
       - "redis"
     ports:
