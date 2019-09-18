@@ -4,6 +4,8 @@ WORKDIR /code
 
 RUN npm install -g nodemon
 
-COPY . /code
+ADD package.json /code/
+RUN npm install
+ADD . /code/
 
 CMD ["node", "app.js"]
