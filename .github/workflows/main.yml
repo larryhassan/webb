@@ -18,7 +18,7 @@ jobs:
     - name: Install dependencies
       run: |
         npm install
-  2nd-job:
+  my-2nd-job:
     name: 2nd Job
     runs-on: ubuntu-latest
     steps:
