@@ -22,7 +22,8 @@ jobs:
     name: 2nd Job
     runs-on: ubuntu-latest
     steps:
+    - name: file list
+      run: ls
     - name: install dept
       run: |
-        ls
         npm install
