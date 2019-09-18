@@ -18,4 +18,10 @@ jobs:
     - name: Install dependencies
       run: |
         npm install
-        cat Dockerfile
+  2nd-job:
+    name: 2nd Job
+    runs-on: ubuntu-latest
+    steps:
+    - name: install dept
+      run: |
+        npm install
